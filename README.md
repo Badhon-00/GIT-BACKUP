@@ -32,7 +32,7 @@ git clone https://github.com/Badhon-00/badhon-x.git
 cd badhon-x
 bash install.sh
 badhon-x --login
-
+```
 ## Usage
 badhon-x                    Full backup
 badhon-x --update           Pull latest, no re-clone
