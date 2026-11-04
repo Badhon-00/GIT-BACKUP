@@ -1,0 +1,11 @@
+.env
+*.token
+*.key
+config.local.json
+backup/
+_gh_temp/
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store

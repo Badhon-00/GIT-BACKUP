@@ -1,0 +1,7 @@
+#!/data/data/com.termux/files/usr/bin/bash
+SELF="$(cd "$(dirname "$0")" && pwd)"
+termux-wake-lock 2>/dev/null || true
+python "$SELF/badhon_x.py" "$@"
+RC=$?
+termux-wake-unlock 2>/dev/null || true
+exit $RC
